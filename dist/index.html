@@ -4,11 +4,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>ToDo</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="main.js"></script>
 </head>
 
+
 <body>
-  <script src="main.js"></script>
+
+  <section id="header">
+    <div class="banner">
+      <h1>ToDo</h1>
+
+    </div>
+  </section>
+
+  <section id="left-panel">
+    <ul>
+      <li>Today</li>
+      <li>Today</li>
+      <li>Today</li>
+    </ul>
+  </section>
+
+  <section id="content">
+    <div class="add-task-box">
+      <h2>New Task</h2>
+      <hr>
+      <form>
+        <label>Title: <input type="text" id="title" name="title" required></label>
+        <label for="date">Due Date: <input type="date" id="title" name="title" required> </label>
+        <label for="priority">Priority: <input type="text" id="priority" name="priority" required></label>
+        <button class="add-task">Add Task</button>
+      </form>
+    </div>
+  </section>
+
+
 </body>
 
 </html>

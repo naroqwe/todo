@@ -1,7 +1,6 @@
 {
   "name": "todo",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "private": true,
   "scripts": {
@@ -17,5 +16,6 @@
   },
   "dependencies": {
     "lodash": "^4.17.21"
-  }
+  },
+  "description": ""
 }
