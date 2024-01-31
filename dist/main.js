@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(()=>{const e=document.querySelector(".add-task-button"),t=document.querySelector(".close-task"),d=document.querySelector(".modal-container");e.addEventListener("click",(()=>{d.classList.add("show")})),t.addEventListener("click",(()=>{d.classList.remove("show")}))}));

@@ -13,33 +13,31 @@
 <body>
 
   <section id="header">
-    <div class="banner">
-      <h1>ToDo</h1>
-
-    </div>
+    <button class="add-task-button">Add task</button>
   </section>
-
-  <section id="left-panel">
-    <ul>
-      <li>Today</li>
-      <li>Today</li>
-      <li>Today</li>
-    </ul>
-  </section>
-
   <section id="content">
-    <div class="add-task-box">
-      <h2>New Task</h2>
-      <hr>
-      <form>
-        <label>Title: <input type="text" id="title" name="title" required></label>
-        <label for="date">Due Date: <input type="date" id="title" name="title" required> </label>
-        <label for="priority">Priority: <input type="text" id="priority" name="priority" required></label>
-        <button class="add-task">Add Task</button>
-      </form>
+    <div class="task">
+      <span class="title">Title: Example Title</span><br>
+      <span class="description">Description: Example Description</span><br>
+      <span class="date">Due date: 2-05-2005</span><br>
+      <span class="priority">Priority: Example Priority</span>
+    </div>
+    <div class="task">
+      <span class="title">Title</span><br>
+      <span class="description">Description</span><br>
+      <span class="date">Due date</span><br>
+      <span class="priority">Priority</span>
     </div>
   </section>
 
+  <div class="modal-container">
+    <div class="modal">
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis cupiditate error rerum dolorum vitae
+        provident corrupti a est aperiam, doloremque quia. Excepturi ipsa soluta laboriosam id atque a sapiente
+        officiis?</p>
+      <button class="close-task">Close</button>
+    </div>
+  </div>
 
 </body>
 
